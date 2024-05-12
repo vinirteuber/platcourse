@@ -92,3 +92,41 @@ header button {
 .card h1 {
   margin-bottom: 20px;
 }
+
+.course-grid{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container{
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #501dc7;
+  width: 500px;
+  height: 69vh;
+}
+
+.list-class{
+  border-radius: 10px;
+  background-color: #13072e;
+  padding: 10px;
+  margin-top: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.line{
+  outline: 1px solid #251150 ;
+}
+
+.progress-bar{
+  margin-top: 10px;
+  list-style: none;
+  height: 5px;
+  background-color: #eef;
+  border-radius: 20px;
+}
+
+.percent-number span{
+  margin-top: 5px;
+}
